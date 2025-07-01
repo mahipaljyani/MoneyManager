@@ -1,0 +1,105 @@
+2025-07-01T09:55:11.850436Z	Cloning repository...
+2025-07-01T09:55:12.477893Z	From https://github.com/mahipaljyani/MoneyManager
+2025-07-01T09:55:12.478726Z	 * branch            eb733077f36ff062a6bc13e1b07489e2a93b6f8e -> FETCH_HEAD
+2025-07-01T09:55:12.479152Z	
+2025-07-01T09:55:12.511046Z	HEAD is now at eb73307 Update .gitignore to exclude local Git setup files
+2025-07-01T09:55:12.511453Z	
+2025-07-01T09:55:12.588863Z	
+2025-07-01T09:55:12.589327Z	Using v2 root directory strategy
+2025-07-01T09:55:12.609538Z	Success: Finished cloning repository files
+2025-07-01T09:55:14.2375Z	Checking for configuration in a Wrangler configuration file (BETA)
+2025-07-01T09:55:14.238477Z	
+2025-07-01T09:55:14.239678Z	Found wrangler.toml file. Reading build configuration...
+2025-07-01T09:55:15.346808Z	A wrangler.toml file was found but it does not appear to be valid. Did you mean to use wrangler.toml to configure Pages? If so, then make sure the file is valid and contains the `pages_build_output_dir` property. Skipping file and continuing.
+2025-07-01T09:55:15.410654Z	Detected the following tools from environment: pnpm@10.11.1, nodejs@22.16.0
+2025-07-01T09:55:16.097908Z	Installing project dependencies: pnpm install
+2025-07-01T09:55:16.704305Z	Lockfile is up to date, resolution step is skipped
+2025-07-01T09:55:16.771057Z	Progress: resolved 1, reused 0, downloaded 0, added 0
+2025-07-01T09:55:16.935328Z	Packages: +790
+2025-07-01T09:55:16.935632Z	++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+2025-07-01T09:55:17.772869Z	Progress: resolved 790, reused 0, downloaded 111, added 103
+2025-07-01T09:55:18.772555Z	Progress: resolved 790, reused 0, downloaded 424, added 424
+2025-07-01T09:55:19.780627Z	Progress: resolved 790, reused 0, downloaded 679, added 630
+2025-07-01T09:55:20.420478Z	Progress: resolved 790, reused 0, downloaded 790, added 790, done
+2025-07-01T09:55:20.729813Z	
+2025-07-01T09:55:20.7301Z	dependencies:
+2025-07-01T09:55:20.730268Z	+ @lucia-auth/adapter-sqlite 3.0.2
+2025-07-01T09:55:20.730419Z	+ @remix-run/node 2.16.8
+2025-07-01T09:55:20.730637Z	+ @remix-run/react 2.16.8
+2025-07-01T09:55:20.730766Z	+ @remix-run/serve 2.16.8
+2025-07-01T09:55:20.730961Z	+ isbot 5.1.28
+2025-07-01T09:55:20.731265Z	+ lucia 3.2.2
+2025-07-01T09:55:20.731634Z	+ oslo 1.2.1
+2025-07-01T09:55:20.73189Z	+ react 18.3.1
+2025-07-01T09:55:20.732492Z	+ react-dom 18.3.1
+2025-07-01T09:55:20.732797Z	
+2025-07-01T09:55:20.732986Z	devDependencies:
+2025-07-01T09:55:20.73319Z	+ @remix-run/dev 2.16.8
+2025-07-01T09:55:20.733334Z	+ @types/react 18.3.23
+2025-07-01T09:55:20.733434Z	+ @types/react-dom 18.3.7
+2025-07-01T09:55:20.733556Z	+ @typescript-eslint/eslint-plugin 6.21.0
+2025-07-01T09:55:20.733696Z	+ @typescript-eslint/parser 6.21.0
+2025-07-01T09:55:20.733779Z	+ autoprefixer 10.4.21
+2025-07-01T09:55:20.733892Z	+ eslint 8.57.1
+2025-07-01T09:55:20.733962Z	+ eslint-import-resolver-typescript 3.10.1
+2025-07-01T09:55:20.73402Z	+ eslint-plugin-import 2.32.0
+2025-07-01T09:55:20.734077Z	+ eslint-plugin-jsx-a11y 6.10.2
+2025-07-01T09:55:20.734132Z	+ eslint-plugin-react 7.37.5
+2025-07-01T09:55:20.734186Z	+ eslint-plugin-react-hooks 4.6.2
+2025-07-01T09:55:20.734286Z	+ postcss 8.5.6
+2025-07-01T09:55:20.734443Z	+ tailwindcss 3.4.17
+2025-07-01T09:55:20.734627Z	+ typescript 5.8.3
+2025-07-01T09:55:20.734733Z	+ vite 6.3.5
+2025-07-01T09:55:20.734846Z	+ vite-tsconfig-paths 5.1.4
+2025-07-01T09:55:20.73498Z	
+2025-07-01T09:55:20.735095Z	╭ Warning ─────────────────────────────────────────────────────────────────────╮
+2025-07-01T09:55:20.735213Z	│                                                                              │
+2025-07-01T09:55:20.735376Z	│   Ignored build scripts: esbuild, unrs-resolver.                             │
+2025-07-01T09:55:20.735483Z	│   Run "pnpm approve-builds" to pick which dependencies should be allowed     │
+2025-07-01T09:55:20.735607Z	│   to run scripts.                                                            │
+2025-07-01T09:55:20.73572Z	│                                                                              │
+2025-07-01T09:55:20.735855Z	╰──────────────────────────────────────────────────────────────────────────────╯
+2025-07-01T09:55:20.735972Z	
+2025-07-01T09:55:20.763257Z	Done in 4.3s using pnpm v10.11.1
+2025-07-01T09:55:20.795503Z	Executing user command: npm run build
+2025-07-01T09:55:21.241226Z	
+2025-07-01T09:55:21.241508Z	> build
+2025-07-01T09:55:21.241633Z	> remix vite:build
+2025-07-01T09:55:21.241952Z	
+2025-07-01T09:55:22.69171Z	[36mvite v6.3.5 [32mbuilding for production...[36m[39m
+2025-07-01T09:55:22.747649Z	transforming...
+2025-07-01T09:55:23.993765Z	[32m✓[39m 96 modules transformed.
+2025-07-01T09:55:24.007206Z	[33mGenerated an empty chunk: "_index".[39m
+2025-07-01T09:55:24.062798Z	[33mGenerated an empty chunk: "logout".[39m
+2025-07-01T09:55:24.078951Z	rendering chunks...
+2025-07-01T09:55:24.152798Z	computing gzip size...
+2025-07-01T09:55:24.163569Z	[2mbuild/client/[22m[32m.vite/manifest.json              [39m[1m[2m  2.38 kB[22m[1m[22m[2m │ gzip:  0.44 kB[22m
+2025-07-01T09:55:24.163863Z	[2mbuild/client/[22m[2massets/[22m[35mroot-BGng-yQW.css         [39m[1m[2m  5.25 kB[22m[1m[22m[2m │ gzip:  1.53 kB[22m
+2025-07-01T09:55:24.164021Z	[2mbuild/client/[22m[2massets/[22m[36m_index-l0sNRNKZ.js        [39m[1m[2m  0.00 kB[22m[1m[22m[2m │ gzip:  0.02 kB[22m
+2025-07-01T09:55:24.164169Z	[2mbuild/client/[22m[2massets/[22m[36mlogout-l0sNRNKZ.js        [39m[1m[2m  0.00 kB[22m[1m[22m[2m │ gzip:  0.02 kB[22m
+2025-07-01T09:55:24.164319Z	[2mbuild/client/[22m[2massets/[22m[36mlogin-Ca5F6kyl.js         [39m[1m[2m  0.65 kB[22m[1m[22m[2m │ gzip:  0.36 kB[22m
+2025-07-01T09:55:24.164459Z	[2mbuild/client/[22m[2massets/[22m[36msignup-Du_5v7ba.js        [39m[1m[2m  0.66 kB[22m[1m[22m[2m │ gzip:  0.36 kB[22m
+2025-07-01T09:55:24.164591Z	[2mbuild/client/[22m[2massets/[22m[36mdashboard-kMbuZUH6.js     [39m[1m[2m  0.80 kB[22m[1m[22m[2m │ gzip:  0.42 kB[22m
+2025-07-01T09:55:24.164726Z	[2mbuild/client/[22m[2massets/[22m[36mtransactions-C9s115hh.js  [39m[1m[2m  1.49 kB[22m[1m[22m[2m │ gzip:  0.64 kB[22m
+2025-07-01T09:55:24.164865Z	[2mbuild/client/[22m[2massets/[22m[36mloans-msMQhuw7.js         [39m[1m[2m  1.61 kB[22m[1m[22m[2m │ gzip:  0.70 kB[22m
+2025-07-01T09:55:24.164988Z	[2mbuild/client/[22m[2massets/[22m[36mroot-B9h4AAhY.js          [39m[1m[2m  2.45 kB[22m[1m[22m[2m │ gzip:  1.25 kB[22m
+2025-07-01T09:55:24.165091Z	[2mbuild/client/[22m[2massets/[22m[36mentry.client-BaTmW02F.js  [39m[1m[2m  3.83 kB[22m[1m[22m[2m │ gzip:  1.45 kB[22m
+2025-07-01T09:55:24.165192Z	[2mbuild/client/[22m[2massets/[22m[36mcomponents-Db60O3u6.js    [39m[1m[2m257.72 kB[22m[1m[22m[2m │ gzip: 83.15 kB[22m
+2025-07-01T09:55:24.165299Z	[32m✓ built in 1.45s[39m
+2025-07-01T09:55:24.194913Z	[36mvite v6.3.5 [32mbuilding SSR bundle for production...[36m[39m
+2025-07-01T09:55:24.196622Z	transforming...
+2025-07-01T09:55:24.276624Z	[32m✓[39m 13 modules transformed.
+2025-07-01T09:55:24.288852Z	rendering chunks...
+2025-07-01T09:55:24.290291Z	[2mbuild/server/[22m[32m.vite/manifest.json               [39m[1m[2m 0.22 kB[22m[1m[22m
+2025-07-01T09:55:24.290626Z	[2mbuild/server/[22m[2massets/[22m[35mserver-build-BGng-yQW.css  [39m[1m[2m 5.25 kB[22m[1m[22m
+2025-07-01T09:55:24.290828Z	[2mbuild/server/[22m[36mserver.js                         [39m[1m[2m28.48 kB[22m[1m[22m
+2025-07-01T09:55:24.291671Z	[32m✓ built in 96ms[39m
+2025-07-01T09:55:24.328875Z	Finished
+2025-07-01T09:55:25.152086Z	Checking for configuration in a Wrangler configuration file (BETA)
+2025-07-01T09:55:25.15282Z	
+2025-07-01T09:55:25.153382Z	Found wrangler.toml file. Reading build configuration...
+2025-07-01T09:55:26.249818Z	A wrangler.toml file was found but it does not appear to be valid. Did you mean to use wrangler.toml to configure Pages? If so, then make sure the file is valid and contains the `pages_build_output_dir` property. Skipping file and continuing.
+2025-07-01T09:55:26.250736Z	Note: No functions dir at /functions found. Skipping.
+2025-07-01T09:55:26.251057Z	Validating asset output directory
+2025-07-01T09:55:36.52249Z	Success: Assets published!
+2025-07-01T09:55:38.177913Z	Success: Your site was deployed!

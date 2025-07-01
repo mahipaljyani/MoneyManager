@@ -19,7 +19,7 @@ export default defineConfig({
         v3_lazyRouteDiscovery: true,
       },
       serverBuildFile: "server.js",
-    }),
+    }) as any,
     tsconfigPaths(),
   ],
   build: {
