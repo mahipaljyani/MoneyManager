@@ -1,5 +1,5 @@
 import { vitePlugin as remix } from "@remix-run/dev";
-import { defineConfig } from "vite";
+import { defineConfig, type Plugin } from "vite";
 import tsconfigPaths from "vite-tsconfig-paths";
 
 declare module "@remix-run/node" {
@@ -19,7 +19,7 @@ export default defineConfig({
         v3_lazyRouteDiscovery: true,
       },
       serverBuildFile: "server.js",
-    }) as any,
+    }) as Plugin,
     tsconfigPaths(),
   ],
   build: {
