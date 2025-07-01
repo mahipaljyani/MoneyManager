@@ -3,3 +3,8 @@ node_modules
 /.cache
 /build
 .env
+
+# Local Git setup files
+complete_setup.sh
+git_setup_guide.md
+ssh_config
