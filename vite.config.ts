@@ -23,7 +23,7 @@ export default defineConfig({
   ],
   build: {
     rollupOptions: {
-      external: ["@remix-run/cloudflare", "lucia/middleware"],
+      external: [],
     },
   },
 });

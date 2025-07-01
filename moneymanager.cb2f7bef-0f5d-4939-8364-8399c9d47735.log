@@ -1,114 +1,316 @@
-2025-07-01T10:08:29.75789Z	Cloning repository...
-2025-07-01T10:08:30.424956Z	From https://github.com/mahipaljyani/MoneyManager
-2025-07-01T10:08:30.425758Z	 * branch            07e06b840b21e00152cd98dfeda1dd46f7c76c6e -> FETCH_HEAD
-2025-07-01T10:08:30.426141Z	
-2025-07-01T10:08:30.454637Z	HEAD is now at 07e06b8 Fix Cloudflare Pages deployment configuration - Updated wrangler.toml with pages_build_output_dir and fixed vite.config.ts import compatibility
-2025-07-01T10:08:30.455057Z	
-2025-07-01T10:08:30.533555Z	
-2025-07-01T10:08:30.534028Z	Using v2 root directory strategy
-2025-07-01T10:08:30.554135Z	Success: Finished cloning repository files
-2025-07-01T10:08:32.286563Z	Checking for configuration in a Wrangler configuration file (BETA)
-2025-07-01T10:08:32.287391Z	
-2025-07-01T10:08:32.28892Z	Found wrangler.toml file. Reading build configuration...
-2025-07-01T10:08:32.295483Z	pages_build_output_dir: build/client
-2025-07-01T10:08:32.29568Z	Build environment variables: (none found)
-2025-07-01T10:08:33.396715Z	Successfully read wrangler.toml file.
-2025-07-01T10:08:33.463637Z	Detected the following tools from environment: pnpm@10.11.1, nodejs@22.16.0
-2025-07-01T10:08:34.191942Z	Installing project dependencies: pnpm install
-2025-07-01T10:08:34.807222Z	Lockfile is up to date, resolution step is skipped
-2025-07-01T10:08:34.881455Z	Progress: resolved 1, reused 0, downloaded 0, added 0
-2025-07-01T10:08:35.065606Z	Packages: +790
-2025-07-01T10:08:35.065868Z	++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
-2025-07-01T10:08:35.88322Z	Progress: resolved 790, reused 0, downloaded 116, added 113
-2025-07-01T10:08:36.883365Z	Progress: resolved 790, reused 0, downloaded 405, added 396
-2025-07-01T10:08:37.883073Z	Progress: resolved 790, reused 0, downloaded 637, added 614
-2025-07-01T10:08:38.603811Z	Progress: resolved 790, reused 0, downloaded 790, added 790, done
-2025-07-01T10:08:38.922055Z	
-2025-07-01T10:08:38.922675Z	dependencies:
-2025-07-01T10:08:38.922972Z	+ @lucia-auth/adapter-sqlite 3.0.2
-2025-07-01T10:08:38.923082Z	+ @remix-run/node 2.16.8
-2025-07-01T10:08:38.923157Z	+ @remix-run/react 2.16.8
-2025-07-01T10:08:38.923235Z	+ @remix-run/serve 2.16.8
-2025-07-01T10:08:38.923292Z	+ isbot 5.1.28
-2025-07-01T10:08:38.923361Z	+ lucia 3.2.2
-2025-07-01T10:08:38.923423Z	+ oslo 1.2.1
-2025-07-01T10:08:38.923479Z	+ react 18.3.1
-2025-07-01T10:08:38.923546Z	+ react-dom 18.3.1
-2025-07-01T10:08:38.923664Z	
-2025-07-01T10:08:38.923883Z	devDependencies:
-2025-07-01T10:08:38.924152Z	+ @remix-run/dev 2.16.8
-2025-07-01T10:08:38.92431Z	+ @types/react 18.3.23
-2025-07-01T10:08:38.924763Z	+ @types/react-dom 18.3.7
-2025-07-01T10:08:38.925121Z	+ @typescript-eslint/eslint-plugin 6.21.0
-2025-07-01T10:08:38.925208Z	+ @typescript-eslint/parser 6.21.0
-2025-07-01T10:08:38.925421Z	+ autoprefixer 10.4.21
-2025-07-01T10:08:38.925579Z	+ eslint 8.57.1
-2025-07-01T10:08:38.925929Z	+ eslint-import-resolver-typescript 3.10.1
-2025-07-01T10:08:38.92606Z	+ eslint-plugin-import 2.32.0
-2025-07-01T10:08:38.926334Z	+ eslint-plugin-jsx-a11y 6.10.2
-2025-07-01T10:08:38.926451Z	+ eslint-plugin-react 7.37.5
-2025-07-01T10:08:38.926716Z	+ eslint-plugin-react-hooks 4.6.2
-2025-07-01T10:08:38.926852Z	+ postcss 8.5.6
-2025-07-01T10:08:38.927094Z	+ tailwindcss 3.4.17
-2025-07-01T10:08:38.927314Z	+ typescript 5.8.3
-2025-07-01T10:08:38.927577Z	+ vite 6.3.5
-2025-07-01T10:08:38.927681Z	+ vite-tsconfig-paths 5.1.4
-2025-07-01T10:08:38.927806Z	
-2025-07-01T10:08:38.927937Z	╭ Warning ─────────────────────────────────────────────────────────────────────╮
-2025-07-01T10:08:38.928058Z	│                                                                              │
-2025-07-01T10:08:38.928129Z	│   Ignored build scripts: esbuild, unrs-resolver.                             │
-2025-07-01T10:08:38.928236Z	│   Run "pnpm approve-builds" to pick which dependencies should be allowed     │
-2025-07-01T10:08:38.928345Z	│   to run scripts.                                                            │
-2025-07-01T10:08:38.928406Z	│                                                                              │
-2025-07-01T10:08:38.928489Z	╰──────────────────────────────────────────────────────────────────────────────╯
-2025-07-01T10:08:38.928573Z	
-2025-07-01T10:08:38.953752Z	Done in 4.4s using pnpm v10.11.1
-2025-07-01T10:08:38.98683Z	Executing user command: npm run build
-2025-07-01T10:08:39.475252Z	
-2025-07-01T10:08:39.475495Z	> build
-2025-07-01T10:08:39.475728Z	> remix vite:build
-2025-07-01T10:08:39.475833Z	
-2025-07-01T10:08:40.958275Z	[36mvite v6.3.5 [32mbuilding for production...[36m[39m
-2025-07-01T10:08:41.014976Z	transforming...
-2025-07-01T10:08:42.366302Z	[32m✓[39m 96 modules transformed.
-2025-07-01T10:08:42.378671Z	[33mGenerated an empty chunk: "_index".[39m
-2025-07-01T10:08:42.447815Z	[33mGenerated an empty chunk: "logout".[39m
-2025-07-01T10:08:42.46633Z	rendering chunks...
-2025-07-01T10:08:42.542901Z	computing gzip size...
-2025-07-01T10:08:42.554141Z	[2mbuild/client/[22m[32m.vite/manifest.json              [39m[1m[2m  2.38 kB[22m[1m[22m[2m │ gzip:  0.44 kB[22m
-2025-07-01T10:08:42.554408Z	[2mbuild/client/[22m[2massets/[22m[35mroot-BGng-yQW.css         [39m[1m[2m  5.25 kB[22m[1m[22m[2m │ gzip:  1.53 kB[22m
-2025-07-01T10:08:42.55455Z	[2mbuild/client/[22m[2massets/[22m[36m_index-l0sNRNKZ.js        [39m[1m[2m  0.00 kB[22m[1m[22m[2m │ gzip:  0.02 kB[22m
-2025-07-01T10:08:42.554663Z	[2mbuild/client/[22m[2massets/[22m[36mlogout-l0sNRNKZ.js        [39m[1m[2m  0.00 kB[22m[1m[22m[2m │ gzip:  0.02 kB[22m
-2025-07-01T10:08:42.554844Z	[2mbuild/client/[22m[2massets/[22m[36mlogin-Ca5F6kyl.js         [39m[1m[2m  0.65 kB[22m[1m[22m[2m │ gzip:  0.36 kB[22m
-2025-07-01T10:08:42.555033Z	[2mbuild/client/[22m[2massets/[22m[36msignup-Du_5v7ba.js        [39m[1m[2m  0.66 kB[22m[1m[22m[2m │ gzip:  0.36 kB[22m
-2025-07-01T10:08:42.555113Z	[2mbuild/client/[22m[2massets/[22m[36mdashboard-kMbuZUH6.js     [39m[1m[2m  0.80 kB[22m[1m[22m[2m │ gzip:  0.42 kB[22m
-2025-07-01T10:08:42.555241Z	[2mbuild/client/[22m[2massets/[22m[36mtransactions-C9s115hh.js  [39m[1m[2m  1.49 kB[22m[1m[22m[2m │ gzip:  0.64 kB[22m
-2025-07-01T10:08:42.555405Z	[2mbuild/client/[22m[2massets/[22m[36mloans-msMQhuw7.js         [39m[1m[2m  1.61 kB[22m[1m[22m[2m │ gzip:  0.70 kB[22m
-2025-07-01T10:08:42.55553Z	[2mbuild/client/[22m[2massets/[22m[36mroot-B9h4AAhY.js          [39m[1m[2m  2.45 kB[22m[1m[22m[2m │ gzip:  1.25 kB[22m
-2025-07-01T10:08:42.555635Z	[2mbuild/client/[22m[2massets/[22m[36mentry.client-BaTmW02F.js  [39m[1m[2m  3.83 kB[22m[1m[22m[2m │ gzip:  1.45 kB[22m
-2025-07-01T10:08:42.555796Z	[2mbuild/client/[22m[2massets/[22m[36mcomponents-Db60O3u6.js    [39m[1m[2m257.72 kB[22m[1m[22m[2m │ gzip: 83.15 kB[22m
-2025-07-01T10:08:42.555974Z	[32m✓ built in 1.57s[39m
-2025-07-01T10:08:42.58896Z	[36mvite v6.3.5 [32mbuilding SSR bundle for production...[36m[39m
-2025-07-01T10:08:42.590638Z	transforming...
-2025-07-01T10:08:42.671281Z	[32m✓[39m 13 modules transformed.
-2025-07-01T10:08:42.688258Z	rendering chunks...
-2025-07-01T10:08:42.690006Z	[2mbuild/server/[22m[32m.vite/manifest.json               [39m[1m[2m 0.22 kB[22m[1m[22m
-2025-07-01T10:08:42.690365Z	[2mbuild/server/[22m[2massets/[22m[35mserver-build-BGng-yQW.css  [39m[1m[2m 5.25 kB[22m[1m[22m
-2025-07-01T10:08:42.690495Z	[2mbuild/server/[22m[36mserver.js                         [39m[1m[2m28.48 kB[22m[1m[22m
-2025-07-01T10:08:42.691375Z	[32m✓ built in 102ms[39m
-2025-07-01T10:08:42.727941Z	Finished
-2025-07-01T10:08:43.581217Z	Checking for configuration in a Wrangler configuration file (BETA)
-2025-07-01T10:08:43.581909Z	
-2025-07-01T10:08:43.58286Z	Found wrangler.toml file. Reading build configuration...
-2025-07-01T10:08:43.59059Z	pages_build_output_dir: build/client
-2025-07-01T10:08:43.590779Z	Build environment variables: (none found)
-2025-07-01T10:08:44.695511Z	Successfully read wrangler.toml file.
-2025-07-01T10:08:44.696632Z	Note: No functions dir at /functions found. Skipping.
-2025-07-01T10:08:44.696828Z	Validating asset output directory
-2025-07-01T10:08:47.226884Z	Deploying your site to Cloudflare's global network...
-2025-07-01T10:08:49.24661Z	Uploading... (15/15)
-2025-07-01T10:08:49.247426Z	✨ Success! Uploaded 0 files (15 already uploaded) (0.38 sec)
-2025-07-01T10:08:49.24759Z	
-2025-07-01T10:08:49.626983Z	✨ Upload complete!
-2025-07-01T10:08:53.086184Z	Success: Assets published!
-2025-07-01T10:08:54.847066Z	Success: Your site was deployed!
+2025-07-01T10:21:18.245634Z	Cloning repository...
+2025-07-01T10:21:18.90281Z	From https://github.com/mahipaljyani/MoneyManager
+2025-07-01T10:21:18.903213Z	 * branch            1b0f6f0f4f5a072b6fbb163d8a11c0cc55d6124d -> FETCH_HEAD
+2025-07-01T10:21:18.903308Z	
+2025-07-01T10:21:18.932356Z	HEAD is now at 1b0f6f0 Fix TypeScript errors in vite.config.ts - remove invalid serverBuildPath and type casting
+2025-07-01T10:21:18.932705Z	
+2025-07-01T10:21:19.007821Z	
+2025-07-01T10:21:19.00823Z	Using v2 root directory strategy
+2025-07-01T10:21:19.028917Z	Success: Finished cloning repository files
+2025-07-01T10:21:20.782073Z	Checking for configuration in a Wrangler configuration file (BETA)
+2025-07-01T10:21:20.782608Z	
+2025-07-01T10:21:20.784125Z	Found wrangler.toml file. Reading build configuration...
+2025-07-01T10:21:20.790579Z	pages_build_output_dir: build/client
+2025-07-01T10:21:20.79076Z	Build environment variables: (none found)
+2025-07-01T10:21:21.891678Z	Successfully read wrangler.toml file.
+2025-07-01T10:21:21.956202Z	Detected the following tools from environment: pnpm@10.11.1, nodejs@22.16.0
+2025-07-01T10:21:22.648428Z	Installing project dependencies: pnpm install
+2025-07-01T10:21:23.245362Z	Lockfile is up to date, resolution step is skipped
+2025-07-01T10:21:23.322733Z	Progress: resolved 1, reused 0, downloaded 0, added 0
+2025-07-01T10:21:23.510495Z	Packages: +790
+2025-07-01T10:21:23.511062Z	++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+2025-07-01T10:21:24.323797Z	Progress: resolved 790, reused 0, downloaded 113, added 105
+2025-07-01T10:21:25.327805Z	Progress: resolved 790, reused 0, downloaded 421, added 412
+2025-07-01T10:21:26.327957Z	Progress: resolved 790, reused 0, downloaded 688, added 648
+2025-07-01T10:21:26.914103Z	Progress: resolved 790, reused 0, downloaded 790, added 790, done
+2025-07-01T10:21:27.230859Z	
+2025-07-01T10:21:27.231177Z	dependencies:
+2025-07-01T10:21:27.231348Z	+ @lucia-auth/adapter-sqlite 3.0.2
+2025-07-01T10:21:27.23152Z	+ @remix-run/node 2.16.8
+2025-07-01T10:21:27.231633Z	+ @remix-run/react 2.16.8
+2025-07-01T10:21:27.231882Z	+ @remix-run/serve 2.16.8
+2025-07-01T10:21:27.23196Z	+ isbot 5.1.28
+2025-07-01T10:21:27.232071Z	+ lucia 3.2.2
+2025-07-01T10:21:27.232176Z	+ oslo 1.2.1
+2025-07-01T10:21:27.232241Z	+ react 18.3.1
+2025-07-01T10:21:27.232864Z	+ react-dom 18.3.1
+2025-07-01T10:21:27.23304Z	
+2025-07-01T10:21:27.233272Z	devDependencies:
+2025-07-01T10:21:27.233382Z	+ @remix-run/dev 2.16.8
+2025-07-01T10:21:27.233465Z	+ @types/react 18.3.23
+2025-07-01T10:21:27.23364Z	+ @types/react-dom 18.3.7
+2025-07-01T10:21:27.233934Z	+ @typescript-eslint/eslint-plugin 6.21.0
+2025-07-01T10:21:27.234387Z	+ @typescript-eslint/parser 6.21.0
+2025-07-01T10:21:27.234588Z	+ autoprefixer 10.4.21
+2025-07-01T10:21:27.234781Z	+ eslint 8.57.1
+2025-07-01T10:21:27.234937Z	+ eslint-import-resolver-typescript 3.10.1
+2025-07-01T10:21:27.235018Z	+ eslint-plugin-import 2.32.0
+2025-07-01T10:21:27.235187Z	+ eslint-plugin-jsx-a11y 6.10.2
+2025-07-01T10:21:27.23538Z	+ eslint-plugin-react 7.37.5
+2025-07-01T10:21:27.235469Z	+ eslint-plugin-react-hooks 4.6.2
+2025-07-01T10:21:27.235638Z	+ postcss 8.5.6
+2025-07-01T10:21:27.235726Z	+ tailwindcss 3.4.17
+2025-07-01T10:21:27.235899Z	+ typescript 5.8.3
+2025-07-01T10:21:27.236065Z	+ vite 6.3.5
+2025-07-01T10:21:27.236153Z	+ vite-tsconfig-paths 5.1.4
+2025-07-01T10:21:27.236234Z	
+2025-07-01T10:21:27.236363Z	╭ Warning ─────────────────────────────────────────────────────────────────────╮
+2025-07-01T10:21:27.236504Z	│                                                                              │
+2025-07-01T10:21:27.236641Z	│   Ignored build scripts: esbuild, unrs-resolver.                             │
+2025-07-01T10:21:27.236754Z	│   Run "pnpm approve-builds" to pick which dependencies should be allowed     │
+2025-07-01T10:21:27.236887Z	│   to run scripts.                                                            │
+2025-07-01T10:21:27.237003Z	│                                                                              │
+2025-07-01T10:21:27.237147Z	╰──────────────────────────────────────────────────────────────────────────────╯
+2025-07-01T10:21:27.237302Z	
+2025-07-01T10:21:27.266646Z	Done in 4.3s using pnpm v10.11.1
+2025-07-01T10:21:27.301412Z	Executing user command: npm run build
+2025-07-01T10:21:27.736939Z	
+2025-07-01T10:21:27.737179Z	> build
+2025-07-01T10:21:27.737279Z	> remix vite:build
+2025-07-01T10:21:27.737366Z	
+2025-07-01T10:21:29.146533Z	[36mvite v6.3.5 [32mbuilding for production...[36m[39m
+2025-07-01T10:21:29.201285Z	transforming...
+2025-07-01T10:21:30.508663Z	[32m✓[39m 96 modules transformed.
+2025-07-01T10:21:30.520591Z	[33mGenerated an empty chunk: "_index".[39m
+2025-07-01T10:21:30.578965Z	[33mGenerated an empty chunk: "logout".[39m
+2025-07-01T10:21:30.597393Z	rendering chunks...
+2025-07-01T10:21:30.670973Z	computing gzip size...
+2025-07-01T10:21:30.682408Z	[2mbuild/client/[22m[32m.vite/manifest.json              [39m[1m[2m  2.38 kB[22m[1m[22m[2m │ gzip:  0.44 kB[22m
+2025-07-01T10:21:30.682674Z	[2mbuild/client/[22m[2massets/[22m[35mroot-BGng-yQW.css         [39m[1m[2m  5.25 kB[22m[1m[22m[2m │ gzip:  1.53 kB[22m
+2025-07-01T10:21:30.682837Z	[2mbuild/client/[22m[2massets/[22m[36m_index-l0sNRNKZ.js        [39m[1m[2m  0.00 kB[22m[1m[22m[2m │ gzip:  0.02 kB[22m
+2025-07-01T10:21:30.682974Z	[2mbuild/client/[22m[2massets/[22m[36mlogout-l0sNRNKZ.js        [39m[1m[2m  0.00 kB[22m[1m[22m[2m │ gzip:  0.02 kB[22m
+2025-07-01T10:21:30.683109Z	[2mbuild/client/[22m[2massets/[22m[36mlogin-Ca5F6kyl.js         [39m[1m[2m  0.65 kB[22m[1m[22m[2m │ gzip:  0.36 kB[22m
+2025-07-01T10:21:30.68323Z	[2mbuild/client/[22m[2massets/[22m[36msignup-Du_5v7ba.js        [39m[1m[2m  0.66 kB[22m[1m[22m[2m │ gzip:  0.36 kB[22m
+2025-07-01T10:21:30.683352Z	[2mbuild/client/[22m[2massets/[22m[36mdashboard-kMbuZUH6.js     [39m[1m[2m  0.80 kB[22m[1m[22m[2m │ gzip:  0.42 kB[22m
+2025-07-01T10:21:30.683478Z	[2mbuild/client/[22m[2massets/[22m[36mtransactions-C9s115hh.js  [39m[1m[2m  1.49 kB[22m[1m[22m[2m │ gzip:  0.64 kB[22m
+2025-07-01T10:21:30.68364Z	[2mbuild/client/[22m[2massets/[22m[36mloans-msMQhuw7.js         [39m[1m[2m  1.61 kB[22m[1m[22m[2m │ gzip:  0.70 kB[22m
+2025-07-01T10:21:30.683762Z	[2mbuild/client/[22m[2massets/[22m[36mroot-B9h4AAhY.js          [39m[1m[2m  2.45 kB[22m[1m[22m[2m │ gzip:  1.25 kB[22m
+2025-07-01T10:21:30.683878Z	[2mbuild/client/[22m[2massets/[22m[36mentry.client-BaTmW02F.js  [39m[1m[2m  3.83 kB[22m[1m[22m[2m │ gzip:  1.45 kB[22m
+2025-07-01T10:21:30.684005Z	[2mbuild/client/[22m[2massets/[22m[36mcomponents-Db60O3u6.js    [39m[1m[2m257.72 kB[22m[1m[22m[2m │ gzip: 83.15 kB[22m
+2025-07-01T10:21:30.684124Z	[32m✓ built in 1.51s[39m
+2025-07-01T10:21:30.713101Z	[36mvite v6.3.5 [32mbuilding SSR bundle for production...[36m[39m
+2025-07-01T10:21:30.71453Z	transforming...
+2025-07-01T10:21:30.796268Z	[32m✓[39m 13 modules transformed.
+2025-07-01T10:21:30.809273Z	rendering chunks...
+2025-07-01T10:21:30.810802Z	[2mbuild/server/[22m[32m.vite/manifest.json               [39m[1m[2m 0.22 kB[22m[1m[22m
+2025-07-01T10:21:30.811038Z	[2mbuild/server/[22m[2massets/[22m[35mserver-build-BGng-yQW.css  [39m[1m[2m 5.25 kB[22m[1m[22m
+2025-07-01T10:21:30.811122Z	[2mbuild/server/[22m[36mindex.js                          [39m[1m[2m26.46 kB[22m[1m[22m
+2025-07-01T10:21:30.811895Z	[32m✓ built in 98ms[39m
+2025-07-01T10:21:30.848726Z	Finished
+2025-07-01T10:21:31.646478Z	Checking for configuration in a Wrangler configuration file (BETA)
+2025-07-01T10:21:31.647119Z	
+2025-07-01T10:21:31.647898Z	Found wrangler.toml file. Reading build configuration...
+2025-07-01T10:21:31.654919Z	pages_build_output_dir: build/client
+2025-07-01T10:21:31.655108Z	Build environment variables: (none found)
+2025-07-01T10:21:32.767012Z	Successfully read wrangler.toml file.
+2025-07-01T10:21:32.768223Z	Found Functions directory at /functions. Uploading.
+2025-07-01T10:21:32.774263Z	 ⛅️ wrangler 3.101.0
+2025-07-01T10:21:32.77445Z	-------------------
+2025-07-01T10:21:33.901806Z	[33m▲ [43;33m[[43;30mWARNING[43;33m][0m [1mThe package "node:crypto" wasn't found on the file system but is built into node.[0m
+2025-07-01T10:21:33.902592Z	
+2025-07-01T10:21:33.902761Z	  Your Worker may throw errors at runtime unless you enable the "nodejs_compat" compatibility flag. Refer to [4mhttps://developers.cloudflare.com/workers/runtime-apis/nodejs/[0m for more details. Imported from:
+2025-07-01T10:21:33.90304Z	   - ../node_modules/.pnpm/oslo@1.2.1/node_modules/oslo/dist/password/scrypt.js
+2025-07-01T10:21:33.903578Z	
+2025-07-01T10:21:33.903918Z	
+2025-07-01T10:21:33.906696Z	[31m✘ [41;31m[[41;97mERROR[41;31m][0m [1mBuild failed with 11 errors:[0m
+2025-07-01T10:21:33.906843Z	
+2025-07-01T10:21:33.906936Z	  [31m✘ [41;31m[[41;97mERROR[41;31m][0m [1mCould not resolve "@remix-run/cloudflare"[0m
+2025-07-01T10:21:33.90704Z	  
+2025-07-01T10:21:33.907138Z	      ../build/server/index.js:5:31:
+2025-07-01T10:21:33.90725Z	  [37m      5 │ import { redirect, json } from [32m"@remix-run/cloudflare"[37m;
+2025-07-01T10:21:33.907405Z	          ╵                                [32m~~~~~~~~~~~~~~~~~~~~~~~[0m
+2025-07-01T10:21:33.907534Z	  
+2025-07-01T10:21:33.90767Z	    You can mark the path "@remix-run/cloudflare" as external to exclude it from the bundle, which will remove this error.
+2025-07-01T10:21:33.907774Z	  
+2025-07-01T10:21:33.907921Z	  
+2025-07-01T10:21:33.908037Z	  [31m✘ [41;31m[[41;97mERROR[41;31m][0m [1mCould not resolve "lucia/middleware"[0m
+2025-07-01T10:21:33.908318Z	  
+2025-07-01T10:21:33.908625Z	      ../build/server/index.js:8:20:
+2025-07-01T10:21:33.908736Z	  [37m      8 │ import { web } from [32m"lucia/middleware"[37m;
+2025-07-01T10:21:33.908977Z	          ╵                     [32m~~~~~~~~~~~~~~~~~~[0m
+2025-07-01T10:21:33.909213Z	  
+2025-07-01T10:21:33.909309Z	    You can mark the path "lucia/middleware" as external to exclude it from the bundle, which will remove this error.
+2025-07-01T10:21:33.909573Z	  
+2025-07-01T10:21:33.909677Z	  
+2025-07-01T10:21:33.909738Z	  [31m✘ [41;31m[[41;97mERROR[41;31m][0m [1mCould not resolve "fs"[0m
+2025-07-01T10:21:33.910001Z	  
+2025-07-01T10:21:33.910078Z	      ../node_modules/.pnpm/@node-rs+argon2@1.7.0/node_modules/@node-rs/argon2/index.js:5:45:
+2025-07-01T10:21:33.910167Z	  [37m      5 │ const { existsSync, readFileSync } = require([32m'fs'[37m)
+2025-07-01T10:21:33.910271Z	          ╵                                              [32m~~~~[0m
+2025-07-01T10:21:33.91037Z	  
+2025-07-01T10:21:33.910461Z	    The package "fs" wasn't found on the file system but is built into node. Are you trying to bundle for node? You can use "platform: 'node'" to do that, which will remove this error.
+2025-07-01T10:21:33.910572Z	  
+2025-07-01T10:21:33.910681Z	  
+2025-07-01T10:21:33.910775Z	  [31m✘ [41;31m[[41;97mERROR[41;31m][0m [1mCould not resolve "path"[0m
+2025-07-01T10:21:33.910892Z	  
+2025-07-01T10:21:33.91101Z	      ../node_modules/.pnpm/@node-rs+argon2@1.7.0/node_modules/@node-rs/argon2/index.js:6:25:
+2025-07-01T10:21:33.911119Z	  [37m      6 │ const { join } = require([32m'path'[37m)
+2025-07-01T10:21:33.911254Z	          ╵                          [32m~~~~~~[0m
+2025-07-01T10:21:33.911395Z	  
+2025-07-01T10:21:33.911508Z	    The package "path" wasn't found on the file system but is built into node. Are you trying to bundle for node? You can use "platform: 'node'" to do that, which will remove this error.
+2025-07-01T10:21:33.911642Z	  
+2025-07-01T10:21:33.911752Z	  
+2025-07-01T10:21:33.911854Z	  [31m✘ [41;31m[[41;97mERROR[41;31m][0m [1mNo loader is configured for ".node" files: ../node_modules/.pnpm/@node-rs+argon2-linux-x64-musl@1.7.0/node_modules/@node-rs/argon2-linux-x64-musl/argon2.linux-x64-musl.node[0m
+2025-07-01T10:21:33.912075Z	  
+2025-07-01T10:21:33.912179Z	      ../node_modules/.pnpm/@node-rs+argon2@1.7.0/node_modules/@node-rs/argon2/index.js:209:38:
+2025-07-01T10:21:33.912369Z	  [37m      209 │ ...        nativeBinding = require([32m'@node-rs/argon2-linux-x64-musl'[37m)
+2025-07-01T10:21:33.912471Z	            ╵                                    [32m~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~[0m
+2025-07-01T10:21:33.912542Z	  
+2025-07-01T10:21:33.912831Z	  
+2025-07-01T10:21:33.912917Z	  [31m✘ [41;31m[[41;97mERROR[41;31m][0m [1mNo loader is configured for ".node" files: ../node_modules/.pnpm/@node-rs+argon2-linux-x64-gnu@1.7.0/node_modules/@node-rs/argon2-linux-x64-gnu/argon2.linux-x64-gnu.node[0m
+2025-07-01T10:21:33.912983Z	  
+2025-07-01T10:21:33.913048Z	      ../node_modules/.pnpm/@node-rs+argon2@1.7.0/node_modules/@node-rs/argon2/index.js:222:38:
+2025-07-01T10:21:33.913104Z	  [37m      222 │ ...         nativeBinding = require([32m'@node-rs/argon2-linux-x64-gnu'[37m)
+2025-07-01T10:21:33.913161Z	            ╵                                     [32m~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~[0m
+2025-07-01T10:21:33.913248Z	  
+2025-07-01T10:21:33.913357Z	  
+2025-07-01T10:21:33.913522Z	  [31m✘ [41;31m[[41;97mERROR[41;31m][0m [1mCould not resolve "fs"[0m
+2025-07-01T10:21:33.913632Z	  
+2025-07-01T10:21:33.913696Z	      ../node_modules/.pnpm/@node-rs+bcrypt@1.9.0/node_modules/@node-rs/bcrypt/binding.js:5:45:
+2025-07-01T10:21:33.913813Z	  [37m      5 │ const { existsSync, readFileSync } = require([32m'fs'[37m)
+2025-07-01T10:21:33.913949Z	          ╵                                              [32m~~~~[0m
+2025-07-01T10:21:33.914059Z	  
+2025-07-01T10:21:33.914155Z	    The package "fs" wasn't found on the file system but is built into node. Are you trying to bundle for node? You can use "platform: 'node'" to do that, which will remove this error.
+2025-07-01T10:21:33.914252Z	  
+2025-07-01T10:21:33.914407Z	  
+2025-07-01T10:21:33.914516Z	  [31m✘ [41;31m[[41;97mERROR[41;31m][0m [1mCould not resolve "path"[0m
+2025-07-01T10:21:33.914651Z	  
+2025-07-01T10:21:33.914761Z	      ../node_modules/.pnpm/@node-rs+bcrypt@1.9.0/node_modules/@node-rs/bcrypt/binding.js:6:25:
+2025-07-01T10:21:33.914914Z	  [37m      6 │ const { join } = require([32m'path'[37m)
+2025-07-01T10:21:33.915004Z	          ╵                          [32m~~~~~~[0m
+2025-07-01T10:21:33.915157Z	  
+2025-07-01T10:21:33.915314Z	    The package "path" wasn't found on the file system but is built into node. Are you trying to bundle for node? You can use "platform: 'node'" to do that, which will remove this error.
+2025-07-01T10:21:33.91544Z	  
+2025-07-01T10:21:33.915597Z	  
+2025-07-01T10:21:33.91571Z	  [31m✘ [41;31m[[41;97mERROR[41;31m][0m [1mNo loader is configured for ".node" files: ../node_modules/.pnpm/@node-rs+bcrypt-linux-x64-musl@1.9.0/node_modules/@node-rs/bcrypt-linux-x64-musl/bcrypt.linux-x64-musl.node[0m
+2025-07-01T10:21:33.915789Z	  
+2025-07-01T10:21:33.915886Z	      ../node_modules/.pnpm/@node-rs+bcrypt@1.9.0/node_modules/@node-rs/bcrypt/binding.js:199:38:
+2025-07-01T10:21:33.915996Z	  [37m      199 │ ...        nativeBinding = require([32m'@node-rs/bcrypt-linux-x64-musl'[37m)
+2025-07-01T10:21:33.916096Z	            ╵                                    [32m~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~[0m
+2025-07-01T10:21:33.916206Z	  
+2025-07-01T10:21:33.916373Z	  
+2025-07-01T10:21:33.916479Z	  [31m✘ [41;31m[[41;97mERROR[41;31m][0m [1mNo loader is configured for ".node" files: ../node_modules/.pnpm/@node-rs+bcrypt-linux-x64-gnu@1.9.0/node_modules/@node-rs/bcrypt-linux-x64-gnu/bcrypt.linux-x64-gnu.node[0m
+2025-07-01T10:21:33.916799Z	  
+2025-07-01T10:21:33.916881Z	      ../node_modules/.pnpm/@node-rs+bcrypt@1.9.0/node_modules/@node-rs/bcrypt/binding.js:210:38:
+2025-07-01T10:21:33.917031Z	  [37m      210 │ ...         nativeBinding = require([32m'@node-rs/bcrypt-linux-x64-gnu'[37m)
+2025-07-01T10:21:33.917135Z	            ╵                                     [32m~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~[0m
+2025-07-01T10:21:33.917255Z	  
+2025-07-01T10:21:33.917398Z	  
+2025-07-01T10:21:33.917514Z	  [31m✘ [41;31m[[41;97mERROR[41;31m][0m [1mCould not resolve "@remix-run/cloudflare-pages"[0m
+2025-07-01T10:21:33.917647Z	  
+2025-07-01T10:21:33.917753Z	      [[path]].js:1:43:
+2025-07-01T10:21:33.917865Z	  [37m      1 │ ... { createPagesFunctionHandler } from [32m"@remix-run/cloudflare-pages"[37m;
+2025-07-01T10:21:33.917971Z	          ╵                                         [32m~~~~~~~~~~~~~~~~~~~~~~~~~~~~~[0m
+2025-07-01T10:21:33.918073Z	  
+2025-07-01T10:21:33.918175Z	    You can mark the path "@remix-run/cloudflare-pages" as external to exclude it from the bundle, which will remove this error.
+2025-07-01T10:21:33.918274Z	  
+2025-07-01T10:21:33.918367Z	  
+2025-07-01T10:21:33.918465Z	
+2025-07-01T10:21:33.918572Z	
+2025-07-01T10:21:33.918672Z	
+2025-07-01T10:21:33.918778Z	[31m✘ [41;31m[[41;97mERROR[41;31m][0m [1mBuild failed with 11 errors:[0m
+2025-07-01T10:21:33.918881Z	
+2025-07-01T10:21:33.918971Z	  [31m✘ [41;31m[[41;97mERROR[41;31m][0m [1mCould not resolve "@remix-run/cloudflare"[0m
+2025-07-01T10:21:33.919066Z	  
+2025-07-01T10:21:33.919163Z	      ../build/server/index.js:5:31:
+2025-07-01T10:21:33.919254Z	  [37m      5 │ import { redirect, json } from [32m"@remix-run/cloudflare"[37m;
+2025-07-01T10:21:33.919353Z	          ╵                                [32m~~~~~~~~~~~~~~~~~~~~~~~[0m
+2025-07-01T10:21:33.91944Z	  
+2025-07-01T10:21:33.91953Z	    You can mark the path "@remix-run/cloudflare" as external to exclude it from the bundle, which will remove this error.
+2025-07-01T10:21:33.91965Z	  
+2025-07-01T10:21:33.91976Z	  
+2025-07-01T10:21:33.919867Z	  [31m✘ [41;31m[[41;97mERROR[41;31m][0m [1mCould not resolve "lucia/middleware"[0m
+2025-07-01T10:21:33.919969Z	  
+2025-07-01T10:21:33.920073Z	      ../build/server/index.js:8:20:
+2025-07-01T10:21:33.920174Z	  [37m      8 │ import { web } from [32m"lucia/middleware"[37m;
+2025-07-01T10:21:33.920281Z	          ╵                     [32m~~~~~~~~~~~~~~~~~~[0m
+2025-07-01T10:21:33.92038Z	  
+2025-07-01T10:21:33.920472Z	    You can mark the path "lucia/middleware" as external to exclude it from the bundle, which will remove this error.
+2025-07-01T10:21:33.920543Z	  
+2025-07-01T10:21:33.92065Z	  
+2025-07-01T10:21:33.920761Z	  [31m✘ [41;31m[[41;97mERROR[41;31m][0m [1mCould not resolve "fs"[0m
+2025-07-01T10:21:33.920879Z	  
+2025-07-01T10:21:33.920973Z	      ../node_modules/.pnpm/@node-rs+argon2@1.7.0/node_modules/@node-rs/argon2/index.js:5:45:
+2025-07-01T10:21:33.921077Z	  [37m      5 │ const { existsSync, readFileSync } = require([32m'fs'[37m)
+2025-07-01T10:21:33.92118Z	          ╵                                              [32m~~~~[0m
+2025-07-01T10:21:33.92128Z	  
+2025-07-01T10:21:33.921374Z	    The package "fs" wasn't found on the file system but is built into node.
+2025-07-01T10:21:33.921471Z	    - Add the "nodejs_compat" compatibility flag to your project.
+2025-07-01T10:21:33.921597Z	    
+2025-07-01T10:21:33.921706Z	  
+2025-07-01T10:21:33.921808Z	  
+2025-07-01T10:21:33.921908Z	  [31m✘ [41;31m[[41;97mERROR[41;31m][0m [1mCould not resolve "path"[0m
+2025-07-01T10:21:33.922009Z	  
+2025-07-01T10:21:33.922107Z	      ../node_modules/.pnpm/@node-rs+argon2@1.7.0/node_modules/@node-rs/argon2/index.js:6:25:
+2025-07-01T10:21:33.922205Z	  [37m      6 │ const { join } = require([32m'path'[37m)
+2025-07-01T10:21:33.922326Z	          ╵                          [32m~~~~~~[0m
+2025-07-01T10:21:33.922449Z	  
+2025-07-01T10:21:33.922577Z	    The package "path" wasn't found on the file system but is built into node.
+2025-07-01T10:21:33.922692Z	    - Add the "nodejs_compat" compatibility flag to your project.
+2025-07-01T10:21:33.922806Z	    
+2025-07-01T10:21:33.922906Z	  
+2025-07-01T10:21:33.922997Z	  
+2025-07-01T10:21:33.923085Z	  [31m✘ [41;31m[[41;97mERROR[41;31m][0m [1mNo loader is configured for ".node" files: ../node_modules/.pnpm/@node-rs+argon2-linux-x64-musl@1.7.0/node_modules/@node-rs/argon2-linux-x64-musl/argon2.linux-x64-musl.node[0m
+2025-07-01T10:21:33.923349Z	  
+2025-07-01T10:21:33.923447Z	      ../node_modules/.pnpm/@node-rs+argon2@1.7.0/node_modules/@node-rs/argon2/index.js:209:38:
+2025-07-01T10:21:33.923572Z	  [37m      209 │ ...        nativeBinding = require([32m'@node-rs/argon2-linux-x64-musl'[37m)
+2025-07-01T10:21:33.923695Z	            ╵                                    [32m~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~[0m
+2025-07-01T10:21:33.923805Z	  
+2025-07-01T10:21:33.923986Z	  
+2025-07-01T10:21:33.924131Z	  [31m✘ [41;31m[[41;97mERROR[41;31m][0m [1mNo loader is configured for ".node" files: ../node_modules/.pnpm/@node-rs+argon2-linux-x64-gnu@1.7.0/node_modules/@node-rs/argon2-linux-x64-gnu/argon2.linux-x64-gnu.node[0m
+2025-07-01T10:21:33.924217Z	  
+2025-07-01T10:21:33.926576Z	      ../node_modules/.pnpm/@node-rs+argon2@1.7.0/node_modules/@node-rs/argon2/index.js:222:38:
+2025-07-01T10:21:33.926715Z	  [37m      222 │ ...         nativeBinding = require([32m'@node-rs/argon2-linux-x64-gnu'[37m)
+2025-07-01T10:21:33.926914Z	            ╵                                     [32m~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~[0m
+2025-07-01T10:21:33.927025Z	  
+2025-07-01T10:21:33.927133Z	  
+2025-07-01T10:21:33.927377Z	  [31m✘ [41;31m[[41;97mERROR[41;31m][0m [1mCould not resolve "fs"[0m
+2025-07-01T10:21:33.92766Z	  
+2025-07-01T10:21:33.927818Z	      ../node_modules/.pnpm/@node-rs+bcrypt@1.9.0/node_modules/@node-rs/bcrypt/binding.js:5:45:
+2025-07-01T10:21:33.927927Z	  [37m      5 │ const { existsSync, readFileSync } = require([32m'fs'[37m)
+2025-07-01T10:21:33.92805Z	          ╵                                              [32m~~~~[0m
+2025-07-01T10:21:33.928156Z	  
+2025-07-01T10:21:33.928319Z	    The package "fs" wasn't found on the file system but is built into node.
+2025-07-01T10:21:33.928447Z	    - Add the "nodejs_compat" compatibility flag to your project.
+2025-07-01T10:21:33.928596Z	    
+2025-07-01T10:21:33.92873Z	  
+2025-07-01T10:21:33.928836Z	  
+2025-07-01T10:21:33.928937Z	  [31m✘ [41;31m[[41;97mERROR[41;31m][0m [1mCould not resolve "path"[0m
+2025-07-01T10:21:33.929032Z	  
+2025-07-01T10:21:33.929138Z	      ../node_modules/.pnpm/@node-rs+bcrypt@1.9.0/node_modules/@node-rs/bcrypt/binding.js:6:25:
+2025-07-01T10:21:33.929214Z	  [37m      6 │ const { join } = require([32m'path'[37m)
+2025-07-01T10:21:33.929298Z	          ╵                          [32m~~~~~~[0m
+2025-07-01T10:21:33.929403Z	  
+2025-07-01T10:21:33.929622Z	    The package "path" wasn't found on the file system but is built into node.
+2025-07-01T10:21:33.929723Z	    - Add the "nodejs_compat" compatibility flag to your project.
+2025-07-01T10:21:33.929825Z	    
+2025-07-01T10:21:33.929957Z	  
+2025-07-01T10:21:33.930094Z	  
+2025-07-01T10:21:33.930206Z	  [31m✘ [41;31m[[41;97mERROR[41;31m][0m [1mNo loader is configured for ".node" files: ../node_modules/.pnpm/@node-rs+bcrypt-linux-x64-musl@1.9.0/node_modules/@node-rs/bcrypt-linux-x64-musl/bcrypt.linux-x64-musl.node[0m
+2025-07-01T10:21:33.930289Z	  
+2025-07-01T10:21:33.930387Z	      ../node_modules/.pnpm/@node-rs+bcrypt@1.9.0/node_modules/@node-rs/bcrypt/binding.js:199:38:
+2025-07-01T10:21:33.930521Z	  [37m      199 │ ...        nativeBinding = require([32m'@node-rs/bcrypt-linux-x64-musl'[37m)
+2025-07-01T10:21:33.930647Z	            ╵                                    [32m~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~[0m
+2025-07-01T10:21:33.930753Z	  
+2025-07-01T10:21:33.930856Z	  
+2025-07-01T10:21:33.930957Z	  [31m✘ [41;31m[[41;97mERROR[41;31m][0m [1mNo loader is configured for ".node" files: ../node_modules/.pnpm/@node-rs+bcrypt-linux-x64-gnu@1.9.0/node_modules/@node-rs/bcrypt-linux-x64-gnu/bcrypt.linux-x64-gnu.node[0m
+2025-07-01T10:21:33.931058Z	  
+2025-07-01T10:21:33.931161Z	      ../node_modules/.pnpm/@node-rs+bcrypt@1.9.0/node_modules/@node-rs/bcrypt/binding.js:210:38:
+2025-07-01T10:21:33.931273Z	  [37m      210 │ ...         nativeBinding = require([32m'@node-rs/bcrypt-linux-x64-gnu'[37m)
+2025-07-01T10:21:33.931384Z	            ╵                                     [32m~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~[0m
+2025-07-01T10:21:33.931512Z	  
+2025-07-01T10:21:33.931635Z	  
+2025-07-01T10:21:33.931731Z	  [31m✘ [41;31m[[41;97mERROR[41;31m][0m [1mCould not resolve "@remix-run/cloudflare-pages"[0m
+2025-07-01T10:21:33.931859Z	  
+2025-07-01T10:21:33.931981Z	      [[path]].js:1:43:
+2025-07-01T10:21:33.932044Z	  [37m      1 │ ... { createPagesFunctionHandler } from [32m"@remix-run/cloudflare-pages"[37m;
+2025-07-01T10:21:33.932138Z	          ╵                                         [32m~~~~~~~~~~~~~~~~~~~~~~~~~~~~~[0m
+2025-07-01T10:21:33.932247Z	  
+2025-07-01T10:21:33.93233Z	    You can mark the path "@remix-run/cloudflare-pages" as external to exclude it from the bundle, which will remove this error.
+2025-07-01T10:21:33.932423Z	  
+2025-07-01T10:21:33.932629Z	  
+2025-07-01T10:21:33.932712Z	
+2025-07-01T10:21:33.932857Z	
+2025-07-01T10:21:33.944619Z	🪵  Logs were written to "/root/.config/.wrangler/logs/wrangler-2025-07-01_10-21-33_385.log"
+2025-07-01T10:21:33.957471Z	Failed building Pages Functions.
+2025-07-01T10:21:35.059296Z	Failed: generating Pages Functions failed. Check the logs above for more information. If this continues for an unknown reason, contact support: https://cfl.re/3WgEyrH
