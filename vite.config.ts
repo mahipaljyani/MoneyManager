@@ -18,7 +18,13 @@ export default defineConfig({
         v3_singleFetch: true,
         v3_lazyRouteDiscovery: true,
       },
+      serverBuildFile: "server.js",
     }),
     tsconfigPaths(),
   ],
+  build: {
+    rollupOptions: {
+      external: ["@remix-run/cloudflare", "lucia/middleware"],
+    },
+  },
 });

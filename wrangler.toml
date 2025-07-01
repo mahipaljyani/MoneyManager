@@ -1,0 +1,9 @@
+
+name = "zenith-wallet"
+main = "./build/index.js"
+compatibility_date = "2024-07-01"
+
+[[d1_databases]]
+binding = "DB"
+database_name = "zenith-wallet-db"
+database_id = "2d5100fd-46da-4c87-b132-94c79d75a2d6"
