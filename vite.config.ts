@@ -1,5 +1,5 @@
 import { vitePlugin as remix } from "@remix-run/dev";
-import { defineConfig, type Plugin } from "vite";
+import { defineConfig } from "vite";
 import tsconfigPaths from "vite-tsconfig-paths";
 
 declare module "@remix-run/node" {
@@ -18,12 +18,7 @@ export default defineConfig({
         v3_singleFetch: true,
         v3_lazyRouteDiscovery: true,
       },
-      serverBuildPath: "functions/[[path]].js",
-      serverConditions: ["worker"],
-      serverMainFields: ["browser", "module", "main"],
-      serverModuleFormat: "esm",
-      serverPlatform: "neutral",
-    }) as Plugin,
+    }),
     tsconfigPaths(),
   ],
   build: {
